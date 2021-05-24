@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\v_jjuvli\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js link
+
+PATH: 
+  C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;D:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;C:\Users\v_jjuvli\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\v_jjuvli\AppData\Local\Programs\Python\Python39\;C:\Users\v_jjuvli\AppData\Local\Microsoft\WindowsApps;C:\Users\v_jjuvli\AppData\Roaming\npm;D:\Program Files (x86)\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, stat 'C:\Users\v_jjuvli\AppData\Local\Yarn\Data\link\jun-webpack-cli\bin\index'
+
+npm manifest: 
+  {
+    "name": "jun-webpack-cli",
+    "version": "1.0.0",
+    "description": "jun-webpack-cli",
+    "bin": "./bin/index", 
+    "gitOwner": "jun-webpack-template", 
+    "defaultOwner": "jun-webpack-template",
+    "keywords": [
+      "cli",
+      "jun-webpack-cli"
+    ],
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lijun8637/jun-webpack-cli.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/lijun8637/jun-webpack-cli/issues"
+    },
+    "homepage": "https://github.com/lijun8637/jun-webpack-cli#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
