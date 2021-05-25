@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "jun-webpack-cli",
   "bin": {
-    "xr": "bin/xr",
-    "xr-add": "bin/xr-add",
-    "xr-delete": "bin/xr-delete",
-    "xr-list": "bin/xr-list",
-    "xr-init": "bin/xr-init"
+    "jwp": "bin/index.js",
+    "jwp-xr": "bin/jwp.js",
+    "jwp-add": "bin/jwp-add.js",
+    "jwp-delete": "bin/jwp-delete.js",
+    "jwp-list": "bin/jwp-list.js",
+    "jwp-inits": "bin/jwp-init.js"
   },
   "gitOwner": "jun-webpack-template",
   "defaultOwner": "jun-webpack-template",
@@ -29,6 +30,7 @@
     "chalk": "^4.1.1",
     "commander": "^7.2.0",
     "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.7",
     "inquirer": "^8.1.0",
     "ora": "^5.4.0"
   }

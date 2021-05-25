@@ -1,5 +1,6 @@
 ### jun-webpack-cli
 
+```
 package.json
   "name": "jun-webpack-cli", //脚手架名称
   "version": "1.0.0",         //当前包的版本
@@ -12,9 +13,13 @@ package.json
     "jun-webpack-cli"
   ],
 
+```
 cd jun-webpack-cli
+
+npm unlink
 
 npm link
 
+-D handlebars
 
 cnpm i -D  commander download-git-repo inquirer ora chalk
