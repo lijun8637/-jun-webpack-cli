@@ -21,19 +21,19 @@ package.json
 
 `npm install`
 
-## 解绑 
+### 解绑 
 
 `npm unlink`
 
-## 清理缓存 
+### 清理缓存 
 
 `npm cache clean --force`
 
-## 绑定执行
+### 绑定执行
 
 `npm link`
 
-
+##
 
 cnpm i -D  commander download-git-repo inquirer ora chalk handlebars
 
