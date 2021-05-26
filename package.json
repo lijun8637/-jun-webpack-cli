@@ -1,7 +1,7 @@
 {
-  "name": "@jun/cli",
+  "name": "jun8637-cli",
   "version": "1.0.0",
-  "description": "Jun Cli",
+  "description": "jun8637 Cli",
   "bin": {
     "jun": "bin/index",
     "jun-jwp": "bin/jwp",
@@ -15,7 +15,7 @@
   "defaultOwner": "webpack-template",
   "keywords": [
     "cli",
-    "@jun/cli"
+    "jun8637-cli"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
