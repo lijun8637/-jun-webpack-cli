@@ -1,14 +1,14 @@
 {
   "name": "@jun/cli",
   "version": "1.0.0",
-  "description": "jun-webpack-cli",
+  "description": "jun-cli",
   "bin": {
     "jun": "bin/index",
     "jun-jwp": "bin/jwp",
-    "jun-jwp-add": "bin/jwp-add",
-    "jun-jwp-delete": "bin/jwp-delete",
-    "jun-jwp-list": "bin/jwp-list",
-    "jun-jwp-init": "bin/jwp-init",
+    "jun-add": "bin/jwp-add",
+    "jun-delete": "bin/jwp-delete",
+    "jun-list": "bin/jwp-list",
+    "jun-init": "bin/jwp-init",
     "eos": "bin/www"
   },
   "gitOwner": "webpack-template",
@@ -21,14 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lijun8637/jun-webpack-cli.git"
+    "url": "git+https://github.com/lijun8637/jun-cli.git"
   },
   "author": "jun8637",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lijun8637/jun-webpack-cli/issues"
+    "url": "https://github.com/lijun8637/jun-cli/issues"
   },
-  "homepage": "https://github.com/lijun8637/jun-webpack-cli#readme",
+  "homepage": "https://github.com/lijun8637/jun-cli#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-env": "^2.4.1",
