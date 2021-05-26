@@ -13,8 +13,8 @@ bin-release/
 *.apk
 
 
-xpackage-lock.json
-xyarn-error.log
+package-lock.json
+yarn-error.log
 
 dist
 node_modules

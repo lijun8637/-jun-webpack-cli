@@ -23,7 +23,7 @@ const fs = require('fs');
 
 // 模板下载地址
 // const downloadUrl = 'direct:https://github.com/c10342/react-multipage-template.git';
-const downloadUrl = 'direct:https://github.com/lijun8637/jun-webpack-cli.git';
+const downloadUrl = 'direct:https://github.com/lijun8637/webpack-template.git';
 
 // 设置脚手架版本
 program

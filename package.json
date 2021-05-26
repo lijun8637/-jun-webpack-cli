@@ -1,37 +1,46 @@
 {
-  "name": "jun-webpack-cli",
+  "name": "@jun/cli",
   "version": "1.0.0",
   "description": "jun-webpack-cli",
   "bin": {
-    "jwp": "bin/index.js",
-    "jwp-xr": "bin/jwp.js",
-    "jwp-add": "bin/jwp-add.js",
-    "jwp-delete": "bin/jwp-delete.js",
-    "jwp-list": "bin/jwp-list.js",
-    "jwp-inits": "bin/jwp-init.js"
+    "jun": "bin/index",
+    "jun-jwp": "bin/jwp",
+    "jun-jwp-add": "bin/jwp-add",
+    "jun-jwp-delete": "bin/jwp-delete",
+    "jun-jwp-list": "bin/jwp-list",
+    "jun-jwp-init": "bin/jwp-init",
+    "eos": "bin/www"
   },
-  "gitOwner": "jun-webpack-template",
-  "defaultOwner": "jun-webpack-template",
+  "gitOwner": "webpack-template",
+  "defaultOwner": "webpack-template",
   "keywords": [],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src -d dist",
+    "watch": "npm run compile -- --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lijun8637/jun-webpack-cli.git"
   },
-  "author": "",
+  "author": "jun8637",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lijun8637/jun-webpack-cli/issues"
   },
   "homepage": "https://github.com/lijun8637/jun-webpack-cli#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-env": "^2.4.1",
+    "babel-preset-env": "^1.7.0",
     "chalk": "^4.1.1",
     "commander": "^7.2.0",
     "download-git-repo": "^3.0.2",
     "handlebars": "^4.7.7",
+    "ini": "^2.0.0",
     "inquirer": "^8.1.0",
+    "log-symbols": "^5.0.0",
     "ora": "^5.4.0"
-  }
+  },
+  "__npminstall_done": false
 }
