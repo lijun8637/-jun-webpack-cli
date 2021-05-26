@@ -1,4 +1,4 @@
-### jun-cli
+### Jun Cli
 
 
 package.json
@@ -6,7 +6,7 @@ package.json
 ```
   "name": "@jun/cli", //脚手架名称
   "version": "1.0.0",         //当前包的版本
-  "description": "@jun/cli",
+  "description": "Jun Cli",
   "bin": "index", //入口文件
   "gitOwner": "webpack5-template", //配置的的git模版
   "defaultOwner": "webpack5-template",//默认的git模版 

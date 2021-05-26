@@ -1,7 +1,7 @@
 {
   "name": "@jun/cli",
   "version": "1.0.0",
-  "description": "jun-cli",
+  "description": "Jun Cli",
   "bin": {
     "jun": "bin/index",
     "jun-jwp": "bin/jwp",
@@ -13,7 +13,10 @@
   },
   "gitOwner": "webpack-template",
   "defaultOwner": "webpack-template",
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "@jun/cli"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "babel src -d dist",
